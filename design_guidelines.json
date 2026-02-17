@@ -1,0 +1,158 @@
+{
+  "project_name": "GD Crochet Portfolio",
+  "design_philosophy": {
+    "identity": "E1 Anti-AI Designer",
+    "core_principles": [
+      "Fusion over Imitation: Blend artisanal warmth with digital precision",
+      "Emotion First: Every pixel conveys 'handmade luxury'",
+      "Content is King: The crochet pieces are the heroes; UI recedes",
+      "Negative Space: Generous breathing room (2x-3x standard)",
+      "Contrast: Delicate gold details against deep blue text"
+    ],
+    "anti_patterns": [
+      "No default Bootstrap grids",
+      "No generic 'Inter' for headings",
+      "No cluttered gradients",
+      "No boring 'Etsy-style' clutter"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "accent": "Cormorant Garamond, serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-medium tracking-tight leading-tight",
+      "h2": "text-4xl md:text-5xl font-normal tracking-tight",
+      "h3": "text-2xl md:text-3xl font-normal",
+      "body": "text-base md:text-lg leading-relaxed text-slate-600",
+      "caption": "text-sm uppercase tracking-[0.2em] text-slate-400"
+    },
+    "instructions": "Use Playfair Display for all major headings. Use Manrope for product descriptions and UI elements. Use Cormorant Garamond for italicized quotes or 'handmade with love' badges."
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "bg": "#FFFFFF",
+        "text": "#0F172A",
+        "description": "Clean white background, deep slate text"
+      },
+      "secondary": {
+        "bg": "#F8FAFC",
+        "text": "#1E293B",
+        "description": "Soft slate grey for secondary backgrounds"
+      },
+      "brand": {
+        "main": "#1e3a8a",
+        "light": "#3b82f6",
+        "dark": "#172554",
+        "description": "Deep Royal Blue (Azul) - Elegant and trustworthy"
+      },
+      "accent": {
+        "main": "#D4AF37",
+        "light": "#FCD34D",
+        "hover": "#B4941F",
+        "description": "Metallic Gold (Dourado) - For buttons, highlights, and borders"
+      }
+    },
+    "usage_rules": [
+      "Never use pure black (#000000). Use Deep Slate (#0F172A).",
+      "Use Gold sparingly for 'Call to Action' and delicate borders.",
+      "Backgrounds should be mostly White (#FFFFFF) or very subtle Off-White (#F8FAFC).",
+      "Text on Blue backgrounds must be White.",
+      "Hover states for Gold buttons should darken slightly."
+    ]
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Mode A: The Tetris Grid)",
+    "container_width": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": {
+      "section_gap": "py-24 md:py-32",
+      "component_gap": "gap-8 md:gap-12"
+    },
+    "strategies": [
+      "Mobile-First: Start with single column, expand to 8/12 cols on desktop.",
+      "Asymmetry: Use different span sizes for product images to create visual interest.",
+      "Breathing Room: Add extra padding inside product cards."
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D4AF37] text-white hover:bg-[#B4941F] rounded-none px-8 py-3 uppercase tracking-widest text-sm transition-all duration-300",
+      "secondary": "border border-[#1e3a8a] text-[#1e3a8a] hover:bg-[#1e3a8a] hover:text-white rounded-none px-8 py-3 uppercase tracking-widest text-sm transition-all duration-300",
+      "whatsapp": "bg-[#25D366] text-white hover:bg-[#128C7E] rounded-full px-6 py-3 flex items-center gap-2 shadow-lg hover:shadow-xl transition-all"
+    },
+    "cards": {
+      "product": "group relative overflow-hidden bg-white hover:shadow-xl transition-all duration-500 border border-slate-100",
+      "feature": "p-8 border border-slate-100 bg-slate-50 hover:bg-white transition-colors duration-300"
+    },
+    "inputs": {
+      "style": "border-b border-slate-300 bg-transparent px-0 py-2 focus:border-[#1e3a8a] focus:ring-0 rounded-none placeholder:text-slate-400"
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "guidelines": [
+      "Use 'lenis' for smooth scrolling.",
+      "Images should scale gently (scale-105) on hover.",
+      "Staggered fade-ins for grid items.",
+      "Transitions: duration-500 ease-out."
+    ]
+  },
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1765813132366-fdac6cb1f0ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwY3JvY2hldCUyMGZhc2hpb24lMjB3b21hbiUyMGJlYWNoJTIwc3Vuc2V0fGVufDB8fHx8MTc3MTI5Njc2Mnww&ixlib=rb-4.1.0&q=85",
+      "alt": "Woman in elegant dress at sunset",
+      "description": "Atmospheric hero image conveying freedom and elegance."
+    },
+    "catalog": [
+      {
+        "url": "https://images.unsplash.com/photo-1767249610050-db64385490dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwzfHxjcm9jaGV0JTIwdG9wJTIwZmFzaGlvbiUyMHN1bW1lcnxlbnwwfHx8fDE3NzEyOTY3NzN8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Crochet Top Red",
+        "category": "Tops"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1671014188161-8d0acbfa97f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxjcm9jaGV0JTIwYmlraW5pJTIwYmVhY2glMjBmYXNoaW9ufGVufDB8fHx8MTc3MTI5Njc3NHww&ixlib=rb-4.1.0&q=85",
+        "alt": "Crochet Bikini",
+        "category": "Beachwear"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615705592748-029c989e6d5c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxjcm9jaGV0JTIwaGFuZG1hZGUlMjBiYWclMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcxMjk2NzYzfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Crochet Texture / Bag",
+        "category": "Accessories"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1747155956854-7d1aaecc3123?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxjcm9jaGV0JTIwYmlraW5pJTIwYmVhY2glMjBmYXNoaW9ufGVufDB8fHx8MTc3MTI5Njc3NHww&ixlib=rb-4.1.0&q=85",
+        "alt": "White Crochet Outfit",
+        "category": "Sets"
+      }
+    ],
+    "about": {
+      "url": "https://images.unsplash.com/photo-1763733593874-3fdbd62f9eb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGFydGlzYW4lMjBzbWlsaW5nJTIwd29ya3Nob3AlMjBjcmVhdGl2ZXxlbnwwfHx8fDE3NzEyOTY3NjN8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Artisan working",
+      "description": "Image for 'Who Am I' section."
+    },
+    "shipping": {
+      "url": "https://images.unsplash.com/photo-1607614564906-234871d9608f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHw0fHxlbGVnYW50JTIwZ2lmdCUyMGJveCUyMHBhY2thZ2luZyUyMHJpYmJvbiUyMHdoaXRlfGVufDB8fHx8MTc3MTI5Njc2NHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Elegant Gift Box",
+      "description": "Image for 'Shipping/Packaging' section."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install 'lenis' for smooth scrolling immediately.",
+    "Install 'framer-motion' for interactions.",
+    "Use Shadcn UI for the Admin Panel components (Table, Dialog, Form, Input).",
+    "Use Custom HTML/Tailwind for the Marketing/Catalog pages to ensure uniqueness.",
+    "Implement the 'WhatsApp Order' logic: Create a link `https://wa.me/PHONE?text=I'm interested in {product} size {size} color {color}`.",
+    "For the Color Selector: Use circular swatches with tooltips.",
+    "For the Admin: Use a clean Dashboard layout with a sidebar.",
+    "Ensure Mobile Responsiveness: The Catalog grid must collapse to 1 column on mobile."
+  ],
+  "universal_guidelines": [
+    "Do not use gradients for text.",
+    "Use 24px-32px padding for mobile containers.",
+    "Ensure all interactive elements have hover states.",
+    "Use 'data-testid' for all buttons and inputs."
+  ]
+}
