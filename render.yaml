@@ -2,13 +2,13 @@ services:
   - type: web
     name: giovanna-depollo-api
     runtime: python
-    buildCommand: cd backend && pip install -r requirements.txt
-    startCommand: cd backend && uvicorn server:app --host 0.0.0.0 --port $PORT
+    buildCommand: cd backend && pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: cd backend && uvicorn server:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips="*"
     envVars:
       - key: MONGO_URL
         sync: false
       - key: DB_NAME
-        value: giovanna_depollo_db
+        value: giovannadepollo
       - key: CORS_ORIGINS
         sync: false
     healthCheckPath: /api/
