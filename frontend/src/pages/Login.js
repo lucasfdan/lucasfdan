@@ -19,7 +19,7 @@ function Login() {
               className="text-4xl md:text-5xl font-bold mb-3"
               style={{ fontFamily: 'Playfair Display, serif', color: '#1e3a8a' }}
             >
-              GD Crochet
+              Giovanna Depollo
             </h1>
             <p className="text-slate-600 text-lg">Painel Administrativo</p>
           </div>
