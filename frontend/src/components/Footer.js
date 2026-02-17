@@ -31,9 +31,15 @@ function Footer() {
             <h4 className="text-sm uppercase tracking-widest font-semibold mb-4 text-slate-700">
               Informações
             </h4>
-            <p className="text-slate-600 text-sm">
+            <p className="text-slate-600 text-sm mb-3">
               Cada peça é única e feita sob encomenda.
             </p>
+            <a
+              href="/login"
+              className="text-slate-400 hover:text-[#1e3a8a] text-xs transition-colors"
+            >
+              Área Administrativa
+            </a>
           </div>
         </div>
         
