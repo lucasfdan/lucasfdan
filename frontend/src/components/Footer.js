@@ -8,7 +8,7 @@ function Footer() {
               className="text-2xl font-bold mb-4"
               style={{ fontFamily: 'Playfair Display, serif', color: '#1e3a8a' }}
             >
-              GD Crochet
+              Giovanna Depollo
             </h3>
             <p className="text-slate-600 text-sm">
               Peças artesanais feitas com amor e dedicação.
