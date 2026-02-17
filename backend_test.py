@@ -18,6 +18,7 @@ class CrochetAPITester:
         self.tests_run = 0
         self.tests_passed = 0
         self.failed_tests = []
+        self.session = requests.Session()  # Use session to handle cookies
         
         # MongoDB connection for test data setup
         self.mongo_client = MongoClient("mongodb://localhost:27017")
