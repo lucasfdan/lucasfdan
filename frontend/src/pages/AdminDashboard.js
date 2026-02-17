@@ -207,7 +207,7 @@ function AdminDashboard() {
             className="text-3xl font-bold"
             style={{ fontFamily: 'Playfair Display, serif', color: '#1e3a8a' }}
           >
-            Painel Admin - GD Crochet
+            Painel Admin - Giovanna Depollo
           </h1>
           <button
             onClick={handleLogout}
