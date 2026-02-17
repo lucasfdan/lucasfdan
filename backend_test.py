@@ -106,7 +106,6 @@ class CrochetAPITester:
             self.db.users.insert_one(user_doc)
             
             # Create test session with proper date format
-            from datetime import timezone, timedelta
             expires_at = datetime.now(timezone.utc) + timedelta(days=7)
             session_doc = {
                 "user_id": self.test_user_id,
