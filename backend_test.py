@@ -170,6 +170,9 @@ class CrochetAPITester:
         print("🔐 TESTING AUTH ENDPOINTS")
         print("="*50)
         
+        # Clear cookies to test without auth
+        self.session.cookies.clear()
+        
         # Test /auth/me without token
         self.run_test(
             "Get Current User - No Auth",
