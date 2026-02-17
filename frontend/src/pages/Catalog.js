@@ -36,7 +36,7 @@ function Catalog() {
       {/* Hero Section */}
       <section className="relative h-[70vh] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1765813132366-fdac6cb1f0ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwY3JvY2hldCUyMGZhc2hpb24lMjB3b21hbiUyMGJlYWNoJTIwc3Vuc2V0fGVufDB8fHx8MTc3MTI5Njc2Mnww&ixlib=rb-4.1.0&q=85"
+          src="https://customer-assets.emergentagent.com/job_amigurumi-shop-3/artifacts/ro4mz7zr_principal.jpeg"
           alt="Hero"
           className="w-full h-full object-cover"
         />
