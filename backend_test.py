@@ -101,7 +101,7 @@ class CrochetAPITester:
                 "email": f"test.user.{timestamp}@example.com",
                 "name": "Test User",
                 "picture": "https://via.placeholder.com/150",
-                "created_at": datetime.now(timezone.utc).isoformat()
+                "created_at": datetime.now(timezone.utc)
             }
             self.db.users.insert_one(user_doc)
             
