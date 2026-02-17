@@ -29,7 +29,7 @@ function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="text-2xl md:text-3xl font-bold" style={{ fontFamily: 'Playfair Display, serif', color: '#1e3a8a' }}>
-              GD Crochet
+              Giovanna Depollo
             </div>
           </Link>
 
