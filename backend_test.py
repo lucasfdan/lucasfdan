@@ -7,7 +7,7 @@ Tests all endpoints including auth and product CRUD operations
 import requests
 import sys
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pymongo import MongoClient
 
 class CrochetAPITester:
