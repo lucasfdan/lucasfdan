@@ -44,7 +44,7 @@ function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-slate-200 text-center text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} GD Crochet. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Giovanna Depollo. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
